@@ -1,0 +1,43 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+html{
+  background: rgb(89, 102, 121);
+}
+img{
+  display: block;
+  margin: 0 auto;
+  border-radius: 50% 50%;
+}
+
+.name {
+
+}
+button {
+  box-shadow: rgb(128, 110, 110) 2px 4px;
+}
+.copyright {
+  color: red;
+  font-size: 16px;
+  margin-left: 1%;
+  font-style: italic;
+}
+
+.discription {
+  color: white;
+  display: inline-block;
+  padding: 0 20%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
