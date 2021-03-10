@@ -14,16 +14,22 @@ html{
   background: rgb(89, 102, 121);
 }
 img{
-  display: block;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  height: 50%;
+  width: 50%;
   border-radius: 50% 50%;
 }
-
+h1 {
+  display: flex;
+  justify-content: center;
+}
 .name {
 
 }
 button {
-  box-shadow: rgb(128, 110, 110) 2px 4px;
+  box-shadow: rgb(121, 104, 104) 4px 6px;
 }
 .copyright {
   color: red;
@@ -32,10 +38,14 @@ button {
   font-style: italic;
 }
 
-.discription {
+.description   {
   color: white;
   display: inline-block;
   padding: 0 20%;
+}
+
+h3 {
+  margin: 10% 10%;
 }
 
 /******************************************
