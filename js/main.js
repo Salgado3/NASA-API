@@ -21,7 +21,7 @@ fetch(url)
         document.querySelector('h3').innerText = description
         document.querySelector('img').src = photos
         document.querySelector('.name').innerText = name
-        document.querySelector('.copyright').innerText = copyright
+        
     })
     .catch(err => {
         console.log(`error ${err}`)

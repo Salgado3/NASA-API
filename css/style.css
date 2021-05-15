@@ -53,8 +53,16 @@ h3 {
   margin: 2.5% 10%;
 }
 
+.name{
+color: aliceblue;
+}
 
 
+h2 {
+  color: aliceblue;
+  font-size: 24px;
+
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
