@@ -3,7 +3,7 @@
 /*******************************************/
 
 /* Box Model Hack */
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -11,29 +11,34 @@
 /* LAYOUT
 /*******************************************/
 /* image from Jeremy Thomas - unsplashy */
-html{
+html {
   background-image: url(https://images.unsplash.com/photo-1464802686167-b939a6910659?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1333&q=80);
   background-size: cover;
-  
 }
-img{
+
+.titles {
+  /* border: 1px solid red; */
+
+  margin-left: 2.5%;
+  display: block;
+}
+img {
   display: flex;
   justify-content: center;
   margin: auto;
   height: 80%;
   width: 80%;
- 
 }
 h1 {
   display: flex;
+  font-family: sans-serif;
   justify-content: center;
   color: aliceblue;
   font-size: 36px;
 }
-.name {
 
-}
 button {
+  margin-top: 1%;
   box-shadow: rgb(121, 104, 104) 4px 6px;
 }
 .copyright {
@@ -48,25 +53,22 @@ h3 {
   font-size: 24px;
   display: inline-block;
   padding: 0 10%;
-  background: rgba(104, 88, 88,.75);
+  background: rgba(104, 88, 88, 0.75);
   display: inline-block;
   margin: 2.5% 10%;
 }
 
-.name{
-color: aliceblue;
+.name {
+  color: aliceblue;
 }
-
 
 h2 {
   color: aliceblue;
   font-size: 24px;
-
 }
 h5 {
   color: aliceblue;
   font-size: 18px;
-
 }
 /******************************************
 /* ADDITIONAL STYLES
