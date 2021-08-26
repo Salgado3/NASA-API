@@ -16,9 +16,8 @@ html {
   background-size: cover;
 }
 
-.titles {
-  /* border: 1px solid red; */
-
+.titles,
+.name {
   margin-left: 2.5%;
   display: block;
 }
@@ -26,8 +25,9 @@ img {
   display: flex;
   justify-content: center;
   margin: auto;
-  height: 80%;
-  width: 80%;
+  height: 60%;
+  width: 60%;
+  border-radius: 50% 50%;
 }
 h1 {
   display: flex;
@@ -51,11 +51,11 @@ button {
 h3 {
   color: aliceblue;
   font-size: 24px;
-  display: inline-block;
-  padding: 0 10%;
+  display: block;
+  /* padding: 5% 5%; */
   background: rgba(104, 88, 88, 0.75);
   display: inline-block;
-  margin: 2.5% 10%;
+  margin: 5% 5%;
 }
 
 .name {
