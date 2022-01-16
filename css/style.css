@@ -40,15 +40,17 @@ h1 {
   padding-top: .55%;
   color: black;
   font-size: 2.75rem;
-  background-color: rgb(180, 17, 17);
+  background-color: rgb(194, 44, 44);
 }
 
 .titles {
   font-size: 2rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
 }
 .description_section{
   align-self: flex-end;
+  background-color: rgb(194, 44, 44);
 }
 .description {
 text-align: justify;
@@ -71,13 +73,6 @@ button {
   font-style: italic;
 }
 
-h3 {
-  color: black;
-  font-size: 24px;
-  display: block;
-  background: rgba(104, 88, 88, 0.75);
-  display: inline-block;
-}
 
 .name {
   color: black;
