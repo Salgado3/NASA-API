@@ -9,26 +9,26 @@ body {
 
 .main_div {
 display: flex;
+justify-content: space-around;
 
 }
 
 .info_div{
 flex-basis: 25%;
-
 }
 .img_div{
-justify-content: center;
-flex-basis: 75%;
+align-self:flex-end;
 }
 img {
   justify-content: center; 
-  border-radius: 25% 25%;
+  border-radius: 5% 5%;
+  height: 90%;
+  width: auto;
 }
 
 .titles,
 .name {
-  margin-left: 2.5%;
-  display: block;
+  
 }
 
 h1 {
@@ -40,7 +40,7 @@ h1 {
 }
 
 button {
-  margin-top: 1%;
+ 
   box-shadow: rgb(121, 104, 104) 4px 6px;
 }
 .copyright {
@@ -54,10 +54,9 @@ h3 {
   color: black;
   font-size: 24px;
   display: block;
-  /* padding: 5% 5%; */
+ 
   background: rgba(104, 88, 88, 0.75);
   display: inline-block;
-  margin: 5% 5%;
 }
 
 .name {
