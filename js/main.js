@@ -13,11 +13,11 @@ function spacePic() {
       let description = data.explanation;
       let photos = data.url;
       let inputValue = data.date;
-      let name = data.title;
+      let photoBy = data.title;
       let copyright = data.copyright;
       document.querySelector("h3").innerText = description;
       document.querySelector("img").src = photos;
-      document.querySelector(".name").innerText = name;
+      document.querySelector(".photo_by_h2").innerText = photoBy;
     })
     .catch((err) => {
       console.log(`error ${err}`);
