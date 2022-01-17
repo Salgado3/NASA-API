@@ -21,6 +21,7 @@ width: 100%;
 
 .info_div{
 width: 100%;
+margin-left: 5%;
 align-items: center;
 justify-content: center;
 }
@@ -28,14 +29,13 @@ justify-content: center;
   display: flex;
   height: 100%;
 justify-content: center;
-
 }
 img {
   object-fit: contain;
   align-self: center;
   justify-content: center; 
   border-radius: 5% 5%;
-  padding: 2% 2% 0% 2%;
+  padding: 1% 2% 0% 2%;
   max-width: 90%;
   max-height: 90%;
 }
@@ -62,10 +62,10 @@ h1 {
   background-color:  rgb(252, 61, 33);
   border-radius: 5% 5%;
 text-align: justify;
-padding: 1% 5%;
+padding: 1% 2%;
 font-size: 2rem;
 overflow: auto;
-height: 400px;
+height: auto;
 width: 90%;
 
 }
